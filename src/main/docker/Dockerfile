@@ -11,4 +11,4 @@ EXPOSE ${server.port} 8080
 WORKDIR /app
 COPY target/incident-0.0.1.SNAPSHOT.jar incident-0.0.1.SNAPSHOT.jar
 
-CMD 	["java", "-jar" , "app.jar"]
+CMD 	["java", "-jar" , "incident-0.0.1.SNAPSHOT.jar"]
