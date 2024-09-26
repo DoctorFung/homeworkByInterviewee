@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: incident
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /incident
+
+  tomcat:
+    max-threads: 500
+    min-space-threads: 50
+    max-connection: 5000
+    accept-coount: 1000
